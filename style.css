@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .principal {
+    background-image: url('./images/fit5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+  
+  }
+  
+  .nav {
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 5%;
+    background-color: black;
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    list-style: none;
+  }
+  
+  .nav-menu ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .nav-menu ul li a:hover {
+    color: #e0138e;
+  }
+  
+  
+  
+  .title {
+    padding: 10%;
+    color: #bae7f2;
+    font-size: 300%;
+    text-align: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold 500px;
+    background-color: #e0138e;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    transition: .3s ease;
+    
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  
+  .content-presentation {
+    text-align: center;
+    font-size: 30px;
+    display: inline;
+    padding: 20px;
+  
+  }
+  
+  .content-musculation {
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    gap: 20px;
+    /* background-color: black;
+    color: white */
+  }
+  
+  .content-musculation>div {
+    min-width: 49%;
+    font-size: 30px;
+  
+  
+  }
+  
+  .content-musculation>div h1 {
+    color: #e0138e;
+  }
+  
+  
+  
+  .pictures {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .content-secon-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  
+  .content-espace {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 8px;
+  }
+  
+  .content-espace1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 8px;
+  
+  }
+  
+  .content-espace2 {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 8px;
+    margin: 10px;
+  }
+  
+  
+  .content-espace2>div {
+    min-height: 33.33%;
+  
+  }
+  
+  .explore {
+    text-align: center;
+    color: #e0138e;
+    font-size: 40px;
+  
+  }
+  
+  
+  
+  .explore>div p {
+    text-align: center;
+  }
+  
+  .imgs {
+    width: 100%;
+    min-height: 60vh;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  
+  .box>h3 {
+    color: #bae7f2;
+  
+  }
+  
+  .content-program {
+    display: flex;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  
+  
+  }
+  
+  .para2 {
+    text-align: center;
+    color: #e0138e;
+    font-size: 406x;
+  }
+  
+  .cardio {
+    background-image: url('images/cardioback2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+  }
+  
+  .musculation {
+    background-image: url('images/couple-personnes-agenouillees-devant-fond-noir-homme-au-milieu_662214-46482.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    width: 100%;
+    object-fit: cover;
+  
+  
+  }
+  
+  .boxe {
+    background-image: url('images/boxeback1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 10px; */
+  }
+  
+  .content-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    color: white;
+    width: 100wv;
+    padding: 3%;
+    margin-top: 80px;
+  
+  }
+  
+  .content-footer>div a {
+    color: white;
+  }
+  
+  .footer2>div a {
+    color: #bae7f2;
+  
+  }
+  
+  .footer1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    background-color: #303030;
+    width: 100wv;
+    padding: 3%;
+  }
+  
+  .footer1>h3 {
+    color: #e0138e;
+  
+  }
+  
+  
+  
+  .para1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  
+  }
+  
+  .para1 h1 {
+    text-align: center;
+  }
+  
+  .para1 a {
+    color: #bae7f2;
+    ;
+    font-size: 50px;
+    margin: 0 10px;
+  
+  }
+  
+  @media screen and (max-width: 900px) {
+    .content-musculation {
+      flex-direction: column;
+    }
+  
+    .content-espace2 {
+      flex-direction: column;
+    }
+  
+    .footer2 {
+      flex-direction: column;
+    }
+  }
